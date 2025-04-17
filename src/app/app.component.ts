@@ -8,4 +8,10 @@ import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 })
 export class AppComponent {
   constructor() {}
+  public appPages = [
+    { title: 'Accueil', url: '/folder/Accueil', icon: 'home' },
+    { title: 'Profil', url: '/profil', icon: 'person' },
+    
+  ];
+  
 }
