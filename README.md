@@ -1,9 +1,10 @@
 # City Explorer - Rabat 📍
 Découvrez Rabat comme jamais auparavant - Une application mobile complète pour explorer les trésors cachés de la capitale marocaine.
+
 ## 📌 Sommaire
 
 - [✨ Fonctionnalités](#fonctionnalités)
-- [🛠️Technologies modernes](#technologies_modernes )
+- [🛠️Technologies modernes](#technologiesmodernes)
 - [ 📸 Galerie d'écrans](#galerie_d'écrans)
 
 
@@ -30,6 +31,7 @@ Explorez par catégories :
 - 100% responsive
 
 ## 📸 Galerie d'écrans
+
 ### Page d'accueil
 ![image](https://github.com/user-attachments/assets/06b7a45e-e699-4e9d-a109-65b4db0f254a)
 
