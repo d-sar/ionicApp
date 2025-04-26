@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { IonIcon } from '@ionic/angular/standalone'; 
+import { addIcons } from 'ionicons'; // Import nécessaire pour les icônes
+import { walkOutline, locationOutline, restaurantOutline, calendarOutline, cameraOutline, pricetagOutline } from 'ionicons/icons';
 import { 
   IonContent, 
   IonHeader, 
@@ -38,11 +41,14 @@ import {
     IonCardHeader,
     IonCardTitle,
     IonCardSubtitle,
-    IonCardContent
+    IonCardContent,IonIcon
   ]
 })
 export class ProfilPage {
-  constructor(private router: Router) {}
+  
+  constructor(private router: Router) {
+    addIcons({ walkOutline, locationOutline, restaurantOutline, calendarOutline, cameraOutline, pricetagOutline });
+  }
   onButtonClick() {
     console.log('Button clicked!');
     this.router.navigate(['/nearme']);

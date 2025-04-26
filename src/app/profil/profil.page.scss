@@ -1,5 +1,16 @@
 /* Dans votre profil.page.scss */
 .menu-links {
+  .link-item ion-icon {
+    margin-right: 8px;
+    vertical-align: middle;
+
+  }
+  
+  .link-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
     margin-bottom: 20px;
     
     .link-item {
@@ -89,3 +100,4 @@ ion-card {
     transform: scale(0.98);
     transition: transform 0.1s ease;
   }
+ 

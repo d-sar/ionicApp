@@ -6,31 +6,49 @@
 
 <ion-content class="ion-padding" style="--background: white;">
   <ion-grid>
-        <!-- Première ligne de liens -->
-        <ion-row class="menu-links">
-          <ion-col size="4" class="link-item">
-            <a (click)="onButtonClick()">Near me ?</a>
-          </ion-col>
-          <ion-col size="4" class="link-item">
-            <a (click)="onButtonClickeat()">Où manger ?</a>
-          </ion-col>
-          <ion-col size="4" class="link-item">
-            <a (click)="onButtonClickevents()">Événements</a>
-          </ion-col>
-        </ion-row>
-    
-        <!-- Deuxième ligne de liens -->
-        <ion-row class="menu-links">
-          <ion-col size="4" class="link-item">
-            <a (click)=" onButtonClicktcorner()">Coin photo</a>
-          </ion-col>
-          <ion-col size="4" class="link-item">
-            <a (click)="onButtonClickdeals()">Bons plans</a>
-          </ion-col>
-          <ion-col size="4" class="link-item">
-            <a (click)="onButtonClicktwalks()">Balades</a>
-          </ion-col>
-        </ion-row>
+      <!-- Première ligne de liens -->
+<ion-row class="menu-links">
+  <ion-col size="4" class="link-item">
+    <a (click)="onButtonClick()">
+      <ion-icon name="location-outline"></ion-icon>
+      Near me ?
+    </a>
+  </ion-col>
+  <ion-col size="4" class="link-item">
+    <a (click)="onButtonClickeat()">
+      <ion-icon name="restaurant-outline"></ion-icon>
+      Où manger ?
+    </a>
+  </ion-col>
+  <ion-col size="4" class="link-item">
+    <a (click)="onButtonClickevents()">
+      <ion-icon name="calendar-outline"></ion-icon>
+      Événements
+    </a>
+  </ion-col>
+</ion-row>
+
+<!-- Deuxième ligne de liens -->
+<ion-row class="menu-links">
+  <ion-col size="4" class="link-item">
+    <a (click)="onButtonClicktcorner()">
+      <ion-icon name="camera-outline"></ion-icon>
+      Coin photo
+    </a>
+  </ion-col>
+  <ion-col size="4" class="link-item">
+    <a (click)="onButtonClickdeals()">
+      <ion-icon name="pricetag-outline"></ion-icon>
+      Bons plans
+    </a>
+  </ion-col>
+  <ion-col size="4" class="link-item">
+    <a (click)="onButtonClicktwalks()">
+      <ion-icon name="walk-outline"></ion-icon>
+      Balades
+    </a>
+  </ion-col>
+</ion-row>
     
 
 
@@ -40,7 +58,7 @@
         <ion-card-subtitle>Découvre les trésors cachés autour de toi</ion-card-subtitle>
       </ion-card-header>
       <ion-card-content>
-        <img src="assets/rabat.jpeg" alt="Vue de Rabat">
+        <img src="assets/images/rabat.jpeg" alt="Vue de Rabat">
         Tu crois connaître Rabat ? Laisse-toi surprendre par les coins méconnus, les événements locaux et les bons plans que City Explorer a dénichés pour toi!
        </ion-card-content>
     </ion-card>
