@@ -3,15 +3,9 @@ Découvrez Rabat comme jamais auparavant - Une application mobile complète pour
 ## 📌 Sommaire
 
 - [✨ Fonctionnalités](#fonctionnalités)
-- [🛠️ Technologies Utilisées](#-technologies-utilisées)
-- [🔐 Authentification en Mémoire](#-authentification-en-mémoire)
-- [🔐 JDBC Authentication](#jdbc-authentication)
-- [🔐 Authentification JDBC avec UserDetailsService](#-authentification-jdbc-avec-userdetailsservice)
-- [🚀 Installation](#-installation)
-- [⚙️ Utilisation](#usage)
-- [📸 Galerie d'écrans](#-galerie-décrans)
-- [🗄️ Captures de la base de données](#-captures-de-la-base-de-données)
-- [📚 Références](#-références)
+- [🛠️Technologies modernes](#technologies_modernes)
+- [ 📸 Galerie d'écrans](#galerie_d'écrans)
+
 
 ## ✨Fonctionnalités
 Explorez par catégories :
@@ -26,7 +20,7 @@ Explorez par catégories :
 
 - 🚶 Balades - Itinéraires scéniques
 
-## 🛠️Technologies modernes :
+## 🛠️Technologies modernes 
 
 - Ionic 7 + Angular 16
 
@@ -34,28 +28,25 @@ Explorez par catégories :
 
 - Animations fluides
 - 100% responsive
-## 🚀 Installation
-Cloner le projet :
-
-
-## 📦 Structure du projet
-src/
-├── app/
-│   ├── pages/
-│   │   ├── profil/          # Page d'accueil
-│   │   ├── eat/           # Restaurants
-│   │   ├── photo/         # Spots photo
-│   │   ├── events/        # Événements
-│   │   ├── deals/         # Bons plans
-│   │   └── walks/         # Itinéraires
-│   └── components/        # Composants partagés
-├── assets/
-│   ├── images/            # Toutes les images
-│   └── styles/            # Styles globaux
-└── environments/          # Configs dev/prod
 
 ## 📸 Galerie d'écrans
 ### Page d'accueil
+![image](https://github.com/user-attachments/assets/06b7a45e-e699-4e9d-a109-65b4db0f254a)
+
 ### Restaurants
+![image](https://github.com/user-attachments/assets/4223fe4b-d037-405e-ab7e-bab6e4ddff05)
+
 ### Événements
+![image](https://github.com/user-attachments/assets/b93d2fd3-d8c9-4cf7-9983-f444145bb587)
+
+### coin photo
+![image](https://github.com/user-attachments/assets/a4c96976-fec3-44c7-8142-38e4cda16f0d)
+
+### Bons plans
+![image](https://github.com/user-attachments/assets/0b1d511e-1991-4cbf-ba18-29b5e5945b31)
+
 ### Balades
+![image](https://github.com/user-attachments/assets/7cb17003-6db6-4425-87c3-e3c0efae6139)
+
+
+
