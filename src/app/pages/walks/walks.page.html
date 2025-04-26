@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Balades à Rabat</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="white-background">
+  <div class="walks-container">
+    <!-- Balade 1 -->
+    <ion-card class="walk-card" (click)="openWalkDetails('corniche')">
+      <img src="assets/images/corniche_walk.jpg" alt="Corniche de Rabat"/>
+      <ion-card-header>
+        <ion-card-title>Corniche de Rabat</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="walk"></ion-icon> 5km • <ion-icon name="time"></ion-icon> 1h15
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Magnifique parcours le long de l'océan Atlantique avec vue sur les vagues
+      </ion-card-content>
+      <div class="walk-footer">
+        <ion-badge color="primary">🌊 Bord de mer</ion-badge>
+        <ion-badge color="primary">☀️ Meilleur en matinée</ion-badge>
+      </div>
+    </ion-card>
+
+    <!-- Balade 2 -->
+    <ion-card class="walk-card" (click)="openWalkDetails('foret')">
+      <img src="assets/images/foret_walk.jpg" alt="Forêt de la Maâmora"/>
+      <ion-card-header>
+        <ion-card-title>Forêt de la Maâmora</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="walk"></ion-icon> 7km • <ion-icon name="time"></ion-icon> 2h
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        La plus grande forêt de chênes-lièges du Maroc, oasis de tranquillité
+      </ion-card-content>
+      <div class="walk-footer">
+        <ion-badge color="primary">🌳 Nature</ion-badge>
+        <ion-badge color="primary">🕊️ Observation d'oiseaux</ion-badge>
+      </div>
+    </ion-card>
+
+    <!-- Balade 3 -->
+    <ion-card class="walk-card" (click)="openWalkDetails('medina')">
+      <img src="assets/images/medina_walk.jpg" alt="Médina de Rabat"/>
+      <ion-card-header>
+        <ion-card-title>Médina Historique</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="walk"></ion-icon> 3km • <ion-icon name="time"></ion-icon> 1h
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Parcours culturel à travers les ruelles colorées et les souks authentiques
+      </ion-card-content>
+      <div class="walk-footer">
+        <ion-badge color="primary">🏛️ Culturel</ion-badge>
+        <ion-badge color="primary">🛍️ Artisanat local</ion-badge>
+      </div>
+    </ion-card>
+  </div>
+</ion-content>

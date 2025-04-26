@@ -1,0 +1,81 @@
+
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Événements à Rabat</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="openCalendar()">
+        <ion-icon name="calendar" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="white-background">
+  <div class="events-container">
+    <!-- Événement 1 -->
+    <ion-card class="event-card" (click)="openEvent('jazz')">
+      <div class="date-badge">
+        <span class="day">24</span>
+        <span class="month">MAI</span>
+      </div>
+      <img src="assets/images/Jazz-au-chellah.jpg" alt="Festival Jazz au Chellah"/>
+      <ion-card-header>
+        <ion-card-title>Jazz au Chellah</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="musical-notes"></ion-icon> Festival • 
+          <ion-icon name="time"></ion-icon> 19h-23h
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Soirée jazz dans le cadre magique des ruines romaines. Avec Marcus Miller en tête d'affiche.
+      </ion-card-content>
+      <ion-button fill="clear" color="primary">
+        Réserver <ion-icon name="arrow-forward" slot="end"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+    <!-- Événement 2 -->
+    <ion-card class="event-card" (click)="openEvent('art')">
+      <div class="date-badge">
+        <span class="day">10</span>
+        <span class="month">JUIN</span>
+      </div>
+      <img src="assets/images/art_expo.jpg" alt="Exposition d'art contemporain"/>
+      <ion-card-header>
+        <ion-card-title>Art Contemporain</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="brush"></ion-icon> Exposition • 
+          <ion-icon name="time"></ion-icon> 10h-18h
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Œuvres d'artistes marocains émergents au Musée Mohammed VI. Vernissage le 9 juin.
+      </ion-card-content>
+      <ion-button fill="clear" color="primary">
+        Plus d'infos <ion-icon name="arrow-forward" slot="end"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+    <!-- Événement 3 -->
+    <ion-card class="event-card" (click)="openEvent('food')">
+      <div class="date-badge">
+        <span class="day">15</span>
+        <span class="month">JUIN</span>
+      </div>
+      <img src="assets/images/food_festival.jpg" alt="Festival de cuisine"/>
+      <ion-card-header>
+        <ion-card-title>Food Festival</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="restaurant"></ion-icon> Gastronomie • 
+          <ion-icon name="time"></ion-icon> 11h-22h
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Découverte des saveurs locales et internationales sur la plage de Rabat. Ateliers culinaires inclus.
+      </ion-card-content>
+      <ion-button fill="clear" color="primary">
+        Programme <ion-icon name="arrow-forward" slot="end"></ion-icon>
+      </ion-button>
+    </ion-card>
+  </div>
+</ion-content>

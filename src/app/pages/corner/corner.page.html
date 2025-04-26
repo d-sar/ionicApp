@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Coin photo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="white-background">
+  <div class="photo-spots-container">
+    <!-- Spot 1 -->
+    <ion-card class="white-card animate-card" (click)="openSpotDetails('kasbah')">
+      <div class="image-container">
+        <img src="assets/images/kasbah_photo_spot.jpg" alt="Kasbah des Oudayas" class="spot-image"/>
+        <div class="photo-badge">
+          <ion-icon name="camera" color="light"></ion-icon>
+          <span>Top spot</span>
+        </div>
+      </div>
+      <ion-card-header>
+        <ion-card-title>Kasbah des Oudayas</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="location-outline"></ion-icon> Vue sur l'océan • 
+          <ion-icon name="time-outline"></ion-icon> Golden hour
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Panoramas exceptionnels avec les murs bleus et blancs caractéristiques
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Spot 2 -->
+    <ion-card class="white-card animate-card" (click)="openSpotDetails('tour_hassan')">
+      <div class="image-container">
+        <img src="assets/images/tour_hassan_spot.jpg" alt="Tour Hassan" class="spot-image"/>
+      </div>
+      <ion-card-header>
+        <ion-card-title>Tour Hassan</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="location-outline"></ion-icon> Centre ville • 
+          <ion-icon name="time-outline"></ion-icon> Coucher de soleil
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Contrastes entre les colonnes anciennes et l'architecture moderne
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Spot 3 -->
+    <ion-card class="white-card animate-card" (click)="openSpotDetails('jardin')">
+      <div class="image-container">
+        <img src="assets/images/jardin_exotique_spot.jpg" alt="Jardin Exotique" class="spot-image"/>
+        <div class="photo-badge">
+          <ion-icon name="sparkles" color="light"></ion-icon>
+          <span>Nature</span>
+        </div>
+      </div>
+      <ion-card-header>
+        <ion-card-title>Jardin Exotique</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="location-outline"></ion-icon> Bouknadel • 
+          <ion-icon name="time-outline"></ion-icon> Matinée
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Jeux de lumière à travers la végétation luxuriante
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Bons plans</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear" (click)="refreshDeals()">
+        <ion-icon slot="icon-only" name="refresh"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="white-background">
+  <div class="deals-container">
+    <!-- Deal 1 -->
+    <ion-card class="deal-card" (click)="openDeal('spa')">
+      <div class="deal-badge">-30%</div>
+      <img src="assets/images/spa_deal.jpg" alt="Spa discount"/>
+      <ion-card-header>
+        <ion-card-title>Spa Relaxation</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="pricetag" color="danger"></ion-icon>
+          <span class="original-price">400 MAD</span>
+          <span class="deal-price">280 MAD</span>
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Massage complet 1h + accès hammam. Valable en semaine
+      </ion-card-content>
+      <ion-button fill="clear" color="primary">
+        Voir le deal <ion-icon name="arrow-forward" slot="end"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+    <!-- Deal 2 -->
+    <ion-card class="deal-card" (click)="openDeal('resto')">
+      <div class="deal-badge">2x1</div>
+      <img src="assets/images/resto_deal.jpg" alt="Restaurant deal"/>
+      <ion-card-header>
+        <ion-card-title>Le Petit Gourmet</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="restaurant"></ion-icon>
+          Menu gastronomique offert
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Pour tout menu acheté, le second est offert. Soir uniquement
+      </ion-card-content>
+      <ion-button fill="clear" color="primary">
+        Profiter <ion-icon name="arrow-forward" slot="end"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+    <!-- Deal 3 -->
+    <ion-card class="deal-card" (click)="openDeal('activite')">
+      <div class="deal-badge">Exclusif</div>
+      <img src="assets/images/activity_deal.jpg" alt="Activity deal"/>
+      <ion-card-header>
+        <ion-card-title>Surf School</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="beer"></ion-icon>
+          Pack découverte
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        2h de surf + équipement + boisson pour 150 MAD au lieu de 250
+      </ion-card-content>
+      <ion-button fill="clear" color="primary">
+        Réserver <ion-icon name="arrow-forward" slot="end"></ion-icon>
+      </ion-button>
+    </ion-card>
+  </div>
+</ion-content>

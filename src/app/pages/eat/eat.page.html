@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Où manger ?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="white-background">
+  <div class="restaurants-container">
+    <!-- Restaurant 1 -->
+    <ion-card class="white-card animate-card" (click)="cardClick($event)">
+      <div class="card-image-container">
+        <img src="assets/images/darzaki.jpeg " alt="Dar Zaki" class="card-image"/>
+        <div class="food-type-badge">Marocain</div>
+      </div>
+      <ion-card-header>
+        <ion-card-title>Dar Zaki</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="location-outline"></ion-icon> 1.5km • 
+          <ion-icon name="star" color="warning"></ion-icon> 4.8
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Cuisine marocaine raffinée dans un riad traditionnel
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Restaurant 2 -->
+    <ion-card class="white-card animate-card" (click)="cardClick($event)">
+      <div class="card-image-container">
+        <img src="assets/images/LaBodega.jpg" alt="La Bodega" class="card-image"/>
+        <div class="food-type-badge">Espagnol</div>
+      </div>
+      <ion-card-header>
+        <ion-card-title>La Bodega</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="location-outline"></ion-icon> 800m • 
+          <ion-icon name="star" color="warning"></ion-icon> 4.5
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Tapas et spécialités espagnoles dans une ambiance chaleureuse
+      </ion-card-content>
+    </ion-card>
+
+    <!-- Restaurant 3 -->
+    <ion-card class="white-card animate-card" (click)="cardClick($event)">
+      <div class="card-image-container">
+        <img src="assets/images/LePetitBeur.jpeg" alt="Le Petit Beur" class="card-image"/>
+        <div class="food-type-badge">Français</div>
+      </div>
+      <ion-card-header>
+        <ion-card-title>Le Petit Beur</ion-card-title>
+        <ion-card-subtitle>
+          <ion-icon name="location-outline"></ion-icon> 2.1km • 
+          <ion-icon name="star" color="warning"></ion-icon> 4.7
+        </ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Brasserie française avec terrasse panoramique
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,13 +1,48 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>profil</ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>City Explorer -Rabat</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">profil</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding" style="--background: white;">
+  <ion-grid>
+        <!-- Première ligne de liens -->
+        <ion-row class="menu-links">
+          <ion-col size="4" class="link-item">
+            <a (click)="onButtonClick()">Near me ?</a>
+          </ion-col>
+          <ion-col size="4" class="link-item">
+            <a (click)="onButtonClickeat()">Où manger ?</a>
+          </ion-col>
+          <ion-col size="4" class="link-item">
+            <a (click)="onButtonClickevents()">Événements</a>
+          </ion-col>
+        </ion-row>
+    
+        <!-- Deuxième ligne de liens -->
+        <ion-row class="menu-links">
+          <ion-col size="4" class="link-item">
+            <a (click)=" onButtonClicktcorner()">Coin photo</a>
+          </ion-col>
+          <ion-col size="4" class="link-item">
+            <a (click)="onButtonClickdeals()">Bons plans</a>
+          </ion-col>
+          <ion-col size="4" class="link-item">
+            <a (click)="onButtonClicktwalks()">Balades</a>
+          </ion-col>
+        </ion-row>
+    
+
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Explore ton quartier à Rabat </ion-card-title>
+        <ion-card-subtitle>Découvre les trésors cachés autour de toi</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <img src="assets/rabat.jpeg" alt="Vue de Rabat">
+        Tu crois connaître Rabat ? Laisse-toi surprendre par les coins méconnus, les événements locaux et les bons plans que City Explorer a dénichés pour toi!
+       </ion-card-content>
+    </ion-card>
+  </ion-grid>
 </ion-content>
