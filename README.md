@@ -3,7 +3,7 @@ Découvrez Rabat comme jamais auparavant - Une application mobile complète pour
 ## 📌 Sommaire
 
 - [✨ Fonctionnalités](#fonctionnalités)
-- [🛠️Technologies modernes](#technologies_modernes)
+- [🛠️Technologies modernes](#technologies_modernes )
 - [ 📸 Galerie d'écrans](#galerie_d'écrans)
 
 
